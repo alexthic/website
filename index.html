@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>alex <3</title>
+    <style>
+body {
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+}
+
+/* Add the custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #111;
+  border-radius: 10px;
+}
+
+/* Add the fade-in effect */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+/* Add the fade-in effect */
+body {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
+.description p:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  z-index: -1;
+}
+
+.bio {
+  color: rgb(100, 100, 100);
+  max-width: 600px;
+  margin: -30px auto 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.bio p:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.box {
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 100px; /* smaller max-width */
+  margin: 0 10px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+    </style>
+  </head>
+  <body>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.classList.add("fade-in");
+      });
+    </script>    
+    <h1>Hi there!</h1>
+    <div class="bio">
+      <p>I'm Alex, and my pronouns are he/his. I'm a 15-year-old homosexual software and web developer. I've always been interested in technology, and I taught myself how to code when I was just 12 years old. Since then, I've been honing my skills and developing my own projects.</p>
+    </div>
+    <h1>Skills</h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="Python logo">
+      </div>
+      <div class="box">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML logo">
+      </div>
+      <div class="box">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" alt="CSS logo">
+      </div>
+      <div class="box">
+        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="JavaScript logo">
+      </div>
+    </div>
+    <h1>What do I make?</h1>
+    <div class="description" style="margin-top: 30px;">
+      <p class="bio">
+        As a software and web developer, I create and design software applications, websites, and other digital products. My job is to write code using programming languages such as Python, JavaScript, and HTML/CSS to build software that meets the needs of my clients or users. I work on the entire development process, from concept to deployment, and I continually refine and improve my work as I receive feedback from users.
+      </p>
+    </div>    
+    <h1>Socials and Contact</h1>    
+    <div class="description" style="margin-top: -10px; text-align: center;">
+      <p class="bio" style="display: inline-block;">
+        Discord
+<div class="description" style="margin-top: 10px; text-align: center;">
+  <p class="bio" style="display: inline-block;">
+    alex &lt;3#4384
+  </p>
+</div>
